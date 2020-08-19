@@ -1,3 +1,23 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+html,body,div,iframe{
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+nav{
+    padding: 5px 10px;
+    background: rgb(33, 33, 33);
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    display: block;
+    width: 100%; 
+    border: none;
+    align-self: center;
+}
 .navbar-inicio{
     display: inline-block;
     background: rgb(33, 33, 33);
@@ -12,13 +32,6 @@
     color: rgb(0, 0, 0);
 }
 
-nav{
-    
-    padding: 5px 10px;
-    background: rgb(33, 33, 33);
-    display: flex;
-    justify-content: center;
-}
 
 .navbar-button{
     background: rgb(33, 33, 33);
@@ -32,7 +45,7 @@ nav{
     color: rgb(0, 0, 0); 
 }
 
-@media (max-width: 500px){
+@media (max-width: 750px){
     nav{
         flex-direction: column;
         padding: 5px 10px;  

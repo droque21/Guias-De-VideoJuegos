@@ -1,0 +1,65 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-weight: 400;
+}
+br{
+    
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.textcenter{
+    text-align: center;
+}
+.column{
+    background: rgba(114, 105, 105, 0.5);
+    border: 1px solid black;
+    color: black;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
+    width:19%;
+    box-sizing: border-box;
+}
+.nombre-juego{
+
+}
+.generos{
+    font-size: 40px;
+    color: rgb(127, 167, 219);
+}
+.btn-comprar{
+    background:salmon;
+    display: block;
+    padding: 10px;
+    color: rgb(255, 255, 239);
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+.btn-comprar:hover{
+    background:rgb(252, 97, 80);
+}
+
+@media(max-width: 1250px){
+    .column{
+        width: 45%;
+        margin-bottom: 9px;
+
+    }
+}
+@media(max-width: 750px){
+    .column{
+        width: 100%;
+        margin-bottom: 9px;
+
+    }
+}
