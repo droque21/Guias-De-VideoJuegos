@@ -49,17 +49,16 @@ br{
     background:rgb(252, 97, 80);
 }
 
-@media(max-width: 1250px){
+@media(max-width: 800px){
     .column{
         width: 45%;
         margin-bottom: 9px;
 
     }
 }
-@media(max-width: 750px){
+@media(max-width: 650px){
     .column{
         width: 100%;
         margin-bottom: 9px;
-
     }
 }
