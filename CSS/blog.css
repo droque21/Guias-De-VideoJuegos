@@ -1,0 +1,10 @@
+.contenedor-flex{
+    display: flex;
+
+}
+.contenedor-grid{
+    display: grid;
+}
+.navbar{
+    width: 100%;
+}
