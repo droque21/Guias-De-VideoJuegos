@@ -7,7 +7,7 @@ html,body,div,iframe{
     height: 100%;
 }
 nav{
-    padding: 5px 10px;
+    padding: 0;
     background: rgb(33, 33, 33);
     display: flex;
     justify-content: center;
@@ -19,7 +19,8 @@ iframe{
     align-self: center;
 }
 .navbar-inicio{
-    display: inline-block;
+    display: block;
+    margin: 0;
     background: rgb(33, 33, 33);
     color: rgb(255, 255, 239);
     font-size: 15px;
@@ -37,6 +38,7 @@ iframe{
     background: rgb(33, 33, 33);
     color: rgb(255, 255, 239);
     padding: 20px 15px;
+    margin: 5px;
     border: 1px solid  rgb(255, 255, 255);
     display: none;
 }
@@ -45,10 +47,9 @@ iframe{
     color: rgb(0, 0, 0); 
 }
 
-@media (max-width: 600px){
+@media (max-width: 775px){
     nav{
-        flex-direction: column;
-        padding: 5px 10px;  
+        flex-direction: column; 
     }
     .navbar-button{
         display: inline-block;
