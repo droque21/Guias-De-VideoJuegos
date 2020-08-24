@@ -1,0 +1,35 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.nice-box{
+    background-color: rgb(228, 76, 76);
+    border: 3px solid black;
+    border-radius: 10px;
+    margin:5px;
+    padding: 10px 5px 15px 20px;
+
+    box-sizing: border-box;
+    height: 300px;
+    width: 48%;
+
+    display: inline-block;
+    vertical-align: middle;
+
+}
+/*#first-box{
+    height: 100%;
+    box-sizing: border-box;
+    height: 300px;
+    width: 50%;
+}*/
+#first-box{
+    /*display: none;*/
+   /*visibility: hidden;*/
+}
+div:last-of-type:hover{
+    color:white;
+    background-color: black;
+    border-color: red;
+}
